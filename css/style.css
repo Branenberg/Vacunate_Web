@@ -1,0 +1,41 @@
+/* Barra de navegación */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-sizing: 120px;
+}
+
+li {
+    float: left;
+    max-width: 25%;
+    max-height: 25%;
+
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgb(23, 26, 216);
+}
+.active {
+    background-color: #120fc5;
+}
+#logo {
+    position:absolute;
+    left:auto;
+    width:15%;
+    height:15%;
+    padding: 0%;
+}
